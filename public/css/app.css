@@ -154,3 +154,91 @@
     /* padding: 10vw; */
     /* padding-left: 50vw; */
 }
+@media (max-width:433px)  
+    {
+    body{
+        display: flex;
+        flex-direction: column;
+        /* width: 100vw; */
+        
+        
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+    .navbar{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        width: 100%;
+    }
+    .manediv img{
+        width: 20%;
+    }
+  
+    .responsive3{
+       position: absolute;
+       top: 315vh;
+       left: 15vw;
+    }
+    .responsive1{
+        position: absolute;
+        left: 1vw;
+        top: 190vh;
+    }
+    .responsive2{
+        position: absolute;
+        left: 1vw;
+        top: 220vh;
+    }
+    .user{
+        position: absolute;
+        top: 250vh;
+        left: 17vw;
+    }
+    .ai{
+        position: absolute;
+        left: 1vw;
+        top: 280vh;
+    }
+    .camera{
+        position: absolute;
+        left: 1vw;
+        top:170vh;
+    }
+    .array{
+        text-align: center;
+    }
+    .section3{
+        padding-top: 100vh;
+    }
+
+    .parents img {
+        width: 50%;
+        
+    }
+    .parents{
+        width: 50vw;
+    }
+    .section4{
+        width: 100%;
+    }
+    .img{
+        width: 50%;
+        position: absolute;
+        top: 130vh;
+        right: 20vw;
+    }
+    /* .section1 img{
+        width: 90%;
+    } */
+}
