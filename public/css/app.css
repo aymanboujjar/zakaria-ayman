@@ -8,7 +8,9 @@
 }
 .manediv{
     text-align: center;
-    position: relative; 
+    
+    
+
 }
 .responsive3{
     position: absolute;
@@ -24,18 +26,18 @@
 }
 .user{
     position: absolute;
-    top: 30vh;
+    top: 170vh;
     left: 5vw;
 }
 .ai{
     position: absolute;
     left: 33vw;
-    top: 30vh;
+    top: 170vh;
 }
 .camera{
     position: absolute;
     left: 70vw;
-    top:30vh;
+    top:170vh;
 }
 .array{
     text-align: center;
@@ -147,6 +149,8 @@
 .title h1{
     text-align: center;
 }
-.img{
+.img1{
     padding-top: 20px;
+    /* padding: 10vw; */
+    /* padding-left: 50vw; */
 }
