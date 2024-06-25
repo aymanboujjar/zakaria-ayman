@@ -2,3 +2,103 @@
     padding: 0;
     margin: 0;
 }
+.section1{
+    background-color: hsl(240, 64%, 98%);   
+    height: 100vh;
+}
+.manediv{
+    text-align: center;
+    position: relative; 
+}
+.responsive3{
+    position: absolute;
+    left: 5vw;
+}
+.responsive1{
+    position: absolute;
+    left: 33vw;
+}
+.responsive2{
+    position: absolute;
+    left: 70vw;
+}
+.user{
+    position: absolute;
+    top: 30vh;
+    left: 5vw;
+}
+.ai{
+    position: absolute;
+    left: 33vw;
+    top: 30vh;
+}
+.camera{
+    position: absolute;
+    left: 70vw;
+    top:30vh;
+}
+.array{
+    text-align: center;
+}
+.arrayh3{
+    font-size: xx-large;
+}
+.section3{
+    position: relative;
+    padding-top: 10vh;
+    width: 100%;
+   
+}
+.class1{
+   padding: 2%;
+    text-align: center;
+    background-color: hsl(254, 75%, 59%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10vh;
+}
+.prh3{
+    font-size: xx-large;
+    position: relative;
+    
+}
+.class47{
+    position: absolute;
+    padding-left: 2vw;
+}
+.class33{
+    position: absolute;
+    padding-left: 30vw;
+}
+.class331{
+    position: absolute;
+    padding-right: 25vw;
+    
+   
+}
+.a{
+    padding: 10vh;
+}
+
+.class2{
+    position: relative;
+}
+.img{
+    margin-top: 25vh;
+    position: absolute;
+    display: block;
+    margin-left: 40vw;
+    
+}
+.v{
+    position: absolute;
+    margin-top: 34vh;
+    margin-left: 18vw;
+}
+.parents{
+    display: flex;
+    gap: 2vw;
+    padding-bottom: 10vh;
+}
