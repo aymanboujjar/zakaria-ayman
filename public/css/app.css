@@ -2,3 +2,40 @@
     padding: 0;
     margin: 0;
 }
+.manediv{
+    text-align: center;
+    position: relative;    
+}
+.responsive3{
+    position: absolute;
+    left: 5vw;
+}
+.responsive1{
+    position: absolute;
+    left: 33vw;
+}
+.responsive2{
+    position: absolute;
+    left: 70vw;
+}
+.user{
+    position: absolute;
+    top: 30vh;
+    left: 5vw;
+}
+.ai{
+    position: absolute;
+    left: 33vw;
+    top: 30vh;
+}
+.camera{
+    position: absolute;
+    left: 70vw;
+    top:30vh;
+}
+.array{
+    text-align: center;
+}
+.arrayh3{
+    font-size: xx-large;
+}
