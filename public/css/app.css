@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 }
-.section1{
+.sections{
     background-color: hsl(240, 64%, 98%);   
     height: 100vh;
 }
@@ -84,26 +84,28 @@
     padding: 10vh;
 }
 
-.class2{
-    position: relative;
-}
-.img{
-    margin-top: 25vh;
-    position: absolute;
-    display: block;
-    margin-left: 40vw;
-    
-}
-.v{
-    position: absolute;
-    margin-top: 34vh;
-    margin-left: 18vw;
-}
-.parents{
+
+.s2h1{
     display: flex;
-    gap: 2vw;
-    padding-bottom: 10vh;
-}
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+       width: 80vw;
+       padding-left: 100px;
+    }
+    .s2h2{
+        display: flex;
+        align-items: center;
+        gap: 14px;
+    
+    }
+    .s2h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -154,15 +156,98 @@
     /* padding: 10vw; */
     /* padding-left: 50vw; */
 }
+.section5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chlay{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.mlay{
+    padding-top: 30px;
+}
+.mlay p{
+    color: grey;
+    text-align: center;
+}
+.mlay h1{
+    text-align: center;
+}
+.hh{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.hh p{
+    color: gray;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.footer1{
+    padding-top: 20px;
+}
+.footer1 p{
+    text-align: center;
+}
+.footer1 h1{
+    text-align: center;
+    font-size: x-large;
+}
+.form{
+    padding-top: 10px;
+   
+}
+.form input{
+    padding: 7px;
+    padding-inline: 50px;
+}
+.form button{
+    border: none;
+    padding: 7px;
+    padding-inline: 94px;
+    color: white;
+    background-color: purple;
+    margin-top: 3px;
+}
+.form p{
+    text-align: center;
+    color: grey;
+    margin-top: 3px;
+}
+.footer2{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding-top: 40px;
+}
+.footer2 h5{
+    color: purple;
+    font-size: x-large;
+}
+.footer2 p{
+    color: grey;
+}
+.listfooter{
+    display: flex;
+    gap: 10px;
+}
 @media (max-width:433px)  
     {
-    body{
+    /* body{
         display: flex;
         flex-direction: column;
-        /* width: 100vw; */
+        overflow-x: hidden;
+        width: 90%;
         
         
-    }
+    } */
     section{
         display: flex;
         flex-direction: column;
@@ -178,65 +263,60 @@
         display: flex;
         flex-direction: column;
     }
-    img{
-        width: 100%;
+ 
+    .section1 img{
+        width: 90%;
     }
-    .manediv img{
-        width: 20%;
-    }
-  
-    .responsive3{
-       position: absolute;
-       top: 315vh;
-       left: 15vw;
-    }
-    .responsive1{
-        position: absolute;
-        left: 1vw;
-        top: 190vh;
-    }
-    .responsive2{
-        position: absolute;
-        left: 1vw;
-        top: 220vh;
-    }
-    .user{
-        position: absolute;
-        top: 250vh;
-        left: 17vw;
-    }
-    .ai{
-        position: absolute;
-        left: 1vw;
-        top: 280vh;
-    }
-    .camera{
-        position: absolute;
-        left: 1vw;
-        top:170vh;
-    }
-    .array{
-        text-align: center;
-    }
-    .section3{
-        padding-top: 100vh;
-    }
+    
+   .sections{
+    display: none;
+   }
+   .section5{
+        display: flex;
+        align-items: start;
 
-    .parents img {
-        width: 50%;
-        
+   }
+   .chlay{
+    flex-direction: column;
+    gap: 5px;
+   }
+   .chlay img{
+        width: 90%;
+   }
+
+    .s2h1{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        padding-left: 50px;
+        flex-direction: column-reverse;
+    
+    
     }
-    .parents{
-        width: 50vw;
+    
+    .s2h2{
+        border-radius: 50px ;
+        background-color: rgb(247, 245, 245);
+        gap: 14px;
+        text-align: center;
+    
     }
-    .section4{
-        width: 100%;
+    .s2h3{
+        row-gap: 30px;
     }
-    .img{
-        width: 50%;
-        position: absolute;
-        top: 130vh;
-        right: 20vw;
+    .footer2{
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        gap: 1px;
+        flex-direction: column;
     }
+   .section3{
+    display: none;
+    
+   }
+   .first-img img{
+    width: 90%;
+   }
   
 }
